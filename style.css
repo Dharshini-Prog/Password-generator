@@ -1,0 +1,36 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white;
+}
+.container {
+    text-align: center;
+    background-color: #1F2937;
+    padding: 30px;
+    border-radius: 10px;
+}
+#diff{
+    color: #10B981;
+    font-size: 50px;
+    font-family: 'Arial', sans-serif;
+    
+}
+button {
+    background-color: #10B981;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #059669;
+}
+#pass1-el, #pass2-el {
+    background-color: #273549;
+    padding: 10px;
+    border-radius: 5px;
+    color: #10B981;
+}
